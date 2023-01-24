@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');  
+
+body{
+    z-index: 100;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+}
