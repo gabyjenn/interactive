@@ -1,7 +1,8 @@
 body{
-	color: #a7ceff;
-	background: #a7ceff;
+	color: white;
+	background: white;
 	filter: blur(0px);
+  font-family: serif;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -11,8 +12,8 @@ body{
 }
 
 ::selection {
-  color: #2244d4;
-  background: #a7ceff;
+  color: black;
+  background: white;
   filter: blur(0px);
 }
 
@@ -32,11 +33,15 @@ h4{
 
 .back{
     color: #2244d4;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0vh;
 }
 
 a{
 	text-decoration: none;
-	color: #2244d4;
+	color: white;
+  background: black;
 }
 
 
@@ -65,7 +70,7 @@ a{
 	display: block;
 	z-index: 2;
 	filter: drop-shadow(0 0px 0px);
-	color: #2244d4;
+	color: black;
 }
 
 .layers {
