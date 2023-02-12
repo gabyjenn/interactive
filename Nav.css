@@ -50,6 +50,7 @@ a:hover{
     width: 200px;
     height: 200px;
     border: 1px solid black;
+    border-radius: 0px;
     display: inline-block;
     align-items: center;
     text-align: center;
