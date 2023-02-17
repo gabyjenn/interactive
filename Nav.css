@@ -22,10 +22,23 @@ a:hover{
     font-style: italic;
 }
 
+a:visited{
+    color: grey;
+}
+
+a:visited:hover{
+    color: #4c6fff;
+}
+
 .title{
     margin-left: 4px;
     font-size: 17px;
     font-family: 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
 }
 
 .nav{
@@ -57,6 +70,12 @@ a:hover{
     font-size: 0.85em;
     margin-top: 4px;
     margin-left: 2px;
+}
+
+.box:hover{
+    transform: scale(2.0);
+    -webkit-transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 10px black;
 }
 
 .sticker{
