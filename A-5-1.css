@@ -1,7 +1,4 @@
 body{
-	color: white;
-	background: white;
-	filter: blur(0px);
   font-family: serif;
 }
 
@@ -17,35 +14,108 @@ body{
   filter: blur(0px);
 }
 
+.index0{
+  z-index: 96;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 6vw;
+  height: 97vh;
+  background: white;
+  color: black;
+  border: 1px solid black;
+  writing-mode: vertical-rl;
+  padding: 5px;
+  padding-top: 15px;
+  mix-blend-mode: normal;
+  border-radius: 0 1vw 1vw 0;
+}
+
+.index1{
+  z-index: 97;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 6vw;
+  height: 67vh;
+  background: white;
+  border: 1px solid black;
+  writing-mode: vertical-rl;
+  padding: 5px;
+  padding-top: 15px;
+  mix-blend-mode: normal;
+  border-radius: 0 1vw 1vw 0;
+}
+
+.index2{
+  z-index: 98;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 6vw;
+  height: 36vh;
+  background: white;
+  border: 1px solid black;
+  writing-mode: vertical-rl;
+  padding: 5px;
+  padding-top: 15px;
+  text-align: left;
+  align-items: left;
+  mix-blend-mode: normal;
+  border-radius: 0 1vw 1vw 0;
+}
+
+.index3{
+  z-index: 99;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 6vw;
+  height: 7vh;
+  background: white;
+  border: 1px solid black;
+  writing-mode: vertical-rl;
+  padding: 5px;
+  padding-top: 15px;
+  mix-blend-mode: normal;
+  border-radius: 0 1vw 0vw 0;
+}
+
 h1{
 	font-size: 3em;
 	font-weight:200; 
 	line-height: 1.1;
 	word-spacing: -0.03em;
 	margin: 0;
+  margin-right: 30vw;
+  color: white;
 }
 
 h4{
 	font-size: 2.4em;
 	font-weight:200;
 	margin: 0;
-}
-
-.back{
-    color: #2244d4;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0vh;
+  margin-right: 30vw;
+  color: white;
 }
 
 a{
-	text-decoration: none;
-	color: white;
-  background: black;
+  font-family: 'DM Mono', monospace;
+  font-size: 1.7vh;
+  color: blue;
+  text-decoration: none;
 }
 
+a:hover{
+    color: #4c6fff;
+    text-decoration: none;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+}
 
-
+a:visited{
+    color: grey;
+}
 
 
 

@@ -22,12 +22,12 @@ body{
   margin-top: 0vh;
   margin-left: 0;
   margin-right: 0;
-  background: black;
+  background: #141414;
 }
 
 div{
   font-family: 'DM Mono', monospace;
-  color: black;
+  color: #141414;
   font-size: 1em;
   line-height: 1.7;
   font-weight: 400;
@@ -43,18 +43,33 @@ a{
   text-decoration: none;
 }
 
+a:hover{
+    color: #4c6fff;
+    text-decoration: none;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+}
+
+a:visited{
+    color: grey;
+}
+
 .index0{
   z-index: 96;
   position: fixed;
   right: 0;
   bottom: 0;
   width: 6vw;
-  height: 95vh;
-  background: black;
+  height: 97vh;
+  background: #141414;
   border: 1px solid black;
   writing-mode: vertical-rl;
   padding: 5px;
+  padding-top: 15px;
   mix-blend-mode: normal;
+  border-radius: 0 1vw 1vw 0;
+  font-family: 'DM Mono', monospace;
+  font-size: 1.7vh;
 }
 
 .index1{
@@ -64,13 +79,12 @@ a{
   bottom: 0;
   width: 6vw;
   height: 67vh;
-  background: #f3f4ed;
+  background: #141414;
   border: 1px solid black;
   writing-mode: vertical-rl;
   padding: 5px;
   padding-top: 15px;
   mix-blend-mode: normal;
-  box-shadow: 0 0 10px black;
   border-radius: 0 1vw 1vw 0;
 }
 
@@ -80,17 +94,16 @@ a{
   right: 0;
   bottom: 0;
   width: 6vw;
-  height: 37vh;
+  height: 36vh;
   background: #f3f4ed;
+  color: black;
   border: 1px solid black;
   writing-mode: vertical-rl;
   padding: 5px;
   padding-top: 15px;
-  color: black;
   text-align: left;
   align-items: left;
   mix-blend-mode: normal;
-  box-shadow: 0 0 10px black;
   border-radius: 0 1vw 1vw 0;
 }
 
@@ -101,13 +114,11 @@ a{
   bottom: 0;
   width: 6vw;
   height: 7vh;
-  background: #f3f4ed;
+  background: #141414;
   border: 1px solid black;
   writing-mode: vertical-rl;
   padding: 5px;
-  color: black;
   mix-blend-mode: normal;
-  box-shadow: 0 0 10px black;
   border-radius: 0 1vw 1vw 0;
 }
 
