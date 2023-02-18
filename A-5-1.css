@@ -138,8 +138,6 @@ a{
 a:hover{
     color: #4c6fff;
     text-decoration: none;
-    font-family: 'Times New Roman', serif;
-    font-style: italic;
 }
 
 a:visited{
