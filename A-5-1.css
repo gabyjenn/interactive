@@ -1,5 +1,10 @@
 body{
   font-family: serif;
+  margin-top: 1px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-left: 30px;
+  border: 1px solid black;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -12,6 +17,17 @@ body{
   color: black;
   background: white;
   filter: blur(0px);
+}
+
+.postit{
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 10vh;
+  width: 95vw;
+  height: 50px;
+  background: black;
+  mix-blend-mode: difference;
 }
 
 .index0{
@@ -82,12 +98,25 @@ body{
 }
 
 h1{
+  z-index: 100;
 	font-size: 3em;
 	font-weight:200; 
 	line-height: 1.1;
 	word-spacing: -0.03em;
 	margin: 0;
-  margin-right: 30vw;
+  margin-right: 20vw;
+  color: white;
+  padding-bottom: 1000px;
+}
+
+h2{
+  z-index: 100;
+  font-size: 3em;
+  font-weight:200; 
+  line-height: 1.1;
+  word-spacing: -0.03em;
+  margin: 0;
+  margin-right: 20vw;
   color: white;
 }
 
@@ -139,7 +168,7 @@ a:visited{
 	margin: 0px;
 	display: block;
 	z-index: 2;
-	filter: drop-shadow(0 0px 0px);
+	filter: drop-shadow(0px 0px 0px);
 	color: black;
 }
 
