@@ -70,12 +70,14 @@ a:visited:hover{
     font-size: 0.85em;
     margin-top: 4px;
     margin-left: 2px;
+    background: #ce8c78;
 }
 
 .box:hover{
     transform: scale(2.0);
     -webkit-transition: transform 0.3s ease-in-out;
     box-shadow: 0 0 10px black;
+    background: #ce8c78;
 }
 
 .sticker{
