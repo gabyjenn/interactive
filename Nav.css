@@ -32,11 +32,9 @@ a:visited:hover{
 
 .title{
     margin-left: 4px;
-    font-size: 17px;
-    font-family: 'Times New Roman', serif;
-    font-size: 50px;
+  font-family: 'DM Mono', monospace;
+    font-size: 20px;
     font-weight: 400;
-    font-style: italic;
     align-items: center;
     text-align: center;
 }
