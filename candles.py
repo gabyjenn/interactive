@@ -3,11 +3,11 @@ import psutil
 import time
 
 # Change this to the URL of your server
-SERVER_URL = 'http://your-server-url.com/update_status'
+SERVER_URL = 'https://gabyjenn.github.io/interactive/candles.html'
 
 # Change these to the names of the people and their corresponding laptop IDs
 PEOPLE = {
-    'person1': 'abc123',
+    'person1': '38:f9:d3:a6:6d:82', #jeewon
     'person2': 'def456',
     'person3': 'ghi789',
     'person4': 'jkl012',
