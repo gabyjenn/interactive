@@ -28,47 +28,47 @@ function makeSound(key) {
   switch (key) {
     case "w":
       var clap = new Audio("sounds/clap.wav");
-      tom1.play();
+      clap.play();
       break;
 
     case "a":
       var hihat = new Audio("sounds/hihat.wav");
-      tom2.play();
+      hihat.play();
       break;
 
     case "s":
       var boom = new Audio('sounds/boom.wav');
-      tom3.play();
+      boom.play();
       break;
 
     case "d":
       var snare = new Audio('sounds/snare.wav');
-      tom4.play();
+      snare.play();
       break;
 
     case "f":
       var openhat = new Audio('sounds/openhat.wav');
-      tom4.play();
+      openhat.play();
       break;
 
     case "g":
       var ride = new Audio('sounds/ride.wav');
-      tom4.play();
+      ride.play();
       break;
 
     case "j":
       var kick = new Audio('sounds/kick.wav');
-      snare.play();
+      kick.play();
       break;
 
     case "k":
       var tink = new Audio('sounds/tink.wav');
-      crash.play();
+      tink.play();
       break;
 
     case "l":
       var tom = new Audio('sounds/tom.wav');
-      kick.play();
+      tom.play();
       break;
 
     default: console.log(key);
