@@ -1,6 +1,6 @@
 body{
-	background: #fff;
-	mix-blend-mode: multiply;
+	/*background-image: url('img/bgphoto.png');*/
+	background-size: 100%;
 	margin: 0;
 	padding: 0;
 }
@@ -37,7 +37,9 @@ div{
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	overflow: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	transform: rotate(180deg);
 	z-index: 100;
 	height: 100vh;
 	width: 30vw;

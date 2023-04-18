@@ -7,11 +7,10 @@ body {
 
 h1 {
 	font-size: 5vw;
-	color: black;
+	color: white;
 	font-family: Acumin Pro, sans-serif;
 	font-weight: 400;
 	margin-top: 35px;
-	letter-spacing: 5vw;
 }
 
 .w {
