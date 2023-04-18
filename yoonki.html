@@ -2,25 +2,44 @@
 <html>
   
 <head>
-  <title>Yoon Ki's Music Room</title>
+  <title>Yoon Ki's Room</title>
   <link rel="stylesheet" href="yoonki.css"> 
 </head>
   
 <body>
   <h1></h1>
   <div class="all">
-    <button class="w button">W</button>
-    <button class="a button">A</button>
-    <button class="s button">S</button>
-    <button class="d button">D</button><br>
-    <button class="f button">F</button>
-    <button class="g button">G</button>
-    <button class="j button">J</button>
-    <button class="k button">K</button>
-    <button class="l button">L</button>
+    <button class="w button">CHK1</button>
+    <button class="a button">S2C</button>
+    <button class="s button">MV</button>
+    <button class="d button">M5C</button>
+    <button class="f button">UM</button>
+    <button class="g button">T6A</button>
+    <button class="j button">X</button>
+    <button class="k button">YW</button>
+    <button class="l button">CM</button>
   </div>
-  
+    <div id="loadingDiv">
+      <div class="loader"></div>
+    </div>
+    <!-- loader end -->
+
+    <div class="wrapper">
+      <div class="images">
+        <img src="img/cat-2.jpeg" alt="cat" id="cat-img" />
+      </div>
+      <button type="button" id="btn">your cat of the day</button>
+    </div>
+    <iframe class="playlist" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0bQMACKejYhDDEhAZ6TGVn?utm_source=generator&theme=0" width="96%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
   <script src="drumKit.js"></script> 
+  <script src="cat.js"></script>
+
+  <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
 </body>
   
 </html>

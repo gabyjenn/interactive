@@ -27,22 +27,22 @@ function makeSound(key) {
 
   switch (key) {
     case "w":
-      var clap = new Audio("sounds/clap.wav");
+      var clap = new Audio("sounds/angry.wav");
       clap.play();
       break;
 
     case "a":
-      var hihat = new Audio("sounds/hihat.wav");
+      var hihat = new Audio("sounds/hungry.wav");
       hihat.play();
       break;
 
     case "s":
-      var boom = new Audio('sounds/boom.wav');
+      var boom = new Audio('sounds/attention.wav');
       boom.play();
       break;
 
     case "d":
-      var snare = new Audio('sounds/snare.wav');
+      var snare = new Audio('sounds/sweet.wav');
       snare.play();
       break;
 
@@ -88,3 +88,25 @@ function buttonAnimation(currentKey) {
   }, 100);
 
 }
+
+
+function fetchCatImage() {
+  let image = document.getElementById("cat-image")
+  fetch('https://api.thecatapi.com/v1/images/search?api_key=live_D2SYXrLvFwhsxaT4IhTTkhjLJPsUEtsPNtLypBg4Wdj1v6T7VgawRj7AwF2JFLgs', {
+    headers: {
+      'x-api-key' : 'live_D2SYXrLvFwhsxaT4IhTTkhjLJPsUEtsPNtLypBg4Wdj1v6T7VgawRj7AwF2JFLgs'
+    }
+  })
+  .then(resp => resp.json())
+  .then(json => image.src = json[0].url)
+}
+
+function btnClick(){
+  let button = document.getElementById("new-cat-btn")
+  button.addEventListener("click", fetchCatImage)
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  fetchCatImage()
+  btnClick()
+})
