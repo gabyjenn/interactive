@@ -1,0 +1,56 @@
+body {
+	text-align: center;
+	background-color: white;
+}
+
+h1 {
+	font-size: 5rem;
+	color: black;
+	font-family: sans-serif;
+}
+
+.w {
+}
+
+.a {
+}
+
+.s {
+}
+
+.d {
+}
+
+.j {
+}
+
+.k {
+}
+
+.l {
+}
+
+.all {
+	margin: 10% auto;
+}
+
+.animation {
+	opacity: 0.5;
+}
+
+.button {
+	outline: none;
+	border: 1px solid black;
+	font-size: 1rem;
+	font-family: Acumin Pro, sans-serif;
+	line-height: 2;
+	font-weight: 400;
+	color: black;
+	border-radius: 0px;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	margin: 10px;
+	background-color: lightgrey;
+}

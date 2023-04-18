@@ -1,68 +1,80 @@
-var numberOfButtons = 
-    document.querySelectorAll(".button").length;
-  
-for (var j = 0; j < numberOfButtons; j++) {
-  
-  document.querySelectorAll(".button")[j]
-  .addEventListener("click", function() {
-  
-    var buttonStyle = this.innerHTML;
-    sound(buttonStyle);
-    animation(buttonStyle);
+var numberOfDrumButtons = document.querySelectorAll(".drum").length;
+
+for (var i = 0; i < numberOfDrumButtons; i++) {
+
+  document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+
+    var buttonInnerHTML = this.innerHTML;
+
+    makeSound(buttonInnerHTML);
+
+    buttonAnimation(buttonInnerHTML);
+
   });
+
 }
-  
+
 document.addEventListener("keypress", function(event) {
-  sound(event.key);
-  animation(event.key);
+
+  makeSound(event.key);
+
+  buttonAnimation(event.key);
+
 });
-  
-function sound(key) {
+
+
+function makeSound(key) {
+
   switch (key) {
     case "w":
-      var sound1 = new Audio("sounds/clap.wav");
-      sound1.play();
+      var tom1 = new Audio("sounds/clap.wav");
+      tom1.play();
       break;
-  
+
     case "a":
-      var sound2 = new Audio("music/hihat.wav");
-      sound2.play();
+      var tom2 = new Audio("sounds/hihat.wav");
+      tom2.play();
       break;
-  
+
     case "s":
-      var sound3 = new Audio('music/snare.wav');
-      sound3.play();
+      var tom3 = new Audio('sounds/boom.wav');
+      tom3.play();
       break;
-  
+
     case "d":
-      var sound4 = new Audio('music/kick.wav');
-      sound4.play();
+      var tom4 = new Audio('sounds/snare.wav');
+      tom4.play();
       break;
-  
+
     case "j":
-      var sound5 = new Audio('music/boom.wav');
-      sound5.play();
+      var snare = new Audio('sounds/kick.wav');
+      snare.play();
       break;
-  
+
     case "k":
-      var sound6 = new Audio('music/tink.wav');
-      sound6.play();
+      var crash = new Audio('sounds/tink.wav');
+      crash.play();
       break;
-  
+
     case "l":
-      var sound7 = new Audio('music/tom.wav');
-      sound7.play();
+      var kick = new Audio('sounds/tom.wav');
+      kick.play();
       break;
-  
+
     default: console.log(key);
+
   }
 }
-  
-function animation(currentKey) {
+
+
+function buttonAnimation(currentKey) {
+
   var activeButton = document.querySelector("." + currentKey);
-  activeButton.classList.add("animation");
-  
+
+  activeButton.classList.add("pressed");
+
   setTimeout(function() {
-    activeButton.classList.remove("animation");
+    activeButton.classList.remove("pressed");
   }, 100);
+
 }
