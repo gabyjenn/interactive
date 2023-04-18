@@ -92,7 +92,7 @@ function buttonAnimation(currentKey) {
 console.clear();
 var audio = new Audio('sounds/angry.wav');
 audio.load();
-document.getElementById('a').onclick = function() {
+document.getElementById('a').ontouchstart = function() {
     audio.pause();
     audio.currentTime = 0;
     audio.play();
