@@ -93,7 +93,6 @@ console.clear();
 var audio = new Audio('sounds/angry.wav');
 audio.load();
 document.getElementById('a').ontouchstart = function() {
-    audio.pause();
     audio.currentTime = 0;
     audio.play();
   }
