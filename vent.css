@@ -18,7 +18,7 @@ form{
 	height: 40vw;
 	border-radius: 35vw;
 	padding: 15vw;
-	box-shadow: 0 0 30px #ff61ff;
+	box-shadow: 0 0 30px white;
 	font-size: 36px;
 }
 
@@ -35,6 +35,22 @@ form{
 	color: white;
 	text-decoration: none;
 	left: 350px;
+}
+
+.message{
+	margin-top: 30vh;
+}
+
+.button{
+	position: absolute;
+	width: 350px;
+	height: 75px;
+	padding-top: 12px;
+	margin-top: 5vh;
+	border-radius: 50px;
+	color: white;
+	left: 310px;
+	background-color: #2b2b2b;
 }
 
 a{
