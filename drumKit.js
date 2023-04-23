@@ -22,7 +22,7 @@ document.addEventListener("keypress", function(event) {
 
 });
 
-
+//
 function makeSound(key) {
 
   switch (key) {
@@ -75,7 +75,7 @@ function makeSound(key) {
 
   }
 }
-
+//
 
 function buttonAnimation(currentKey) {
 
@@ -89,15 +89,85 @@ function buttonAnimation(currentKey) {
 
 }
 
+//new audio script//
 console.clear();
-var audio = new Audio('sounds/angry.wav');
-audio.load();
+var audioA = new Audio('sounds/angry.wav');
+audioA.load();
 document.getElementById('a').ontouchstart = function() {
-    audio.currentTime = 0;
-    audio.play();
+    audioA.pause();
+    audioA.currentTime = 0;
+    audioA.play();
   }
 
+console.clear();
+var audioB = new Audio('sounds/hungry.wav');
+audioB.load();
+document.getElementById('b').ontouchstart = function() {
+    audioB.pause();
+    audioB.currentTime = 0;
+    audioB.play();
+  }
 
+console.clear();
+var audioC = new Audio('sounds/attention.wav');
+audioC.load();
+document.getElementById('c').ontouchstart = function() {
+    audioC.pause();
+    audioC.currentTime = 0;
+    audioC.play();
+  }
+console.clear();
+var audioD = new Audio('sounds/sweet.wav');
+audioD.load();
+document.getElementById('d').ontouchstart = function() {
+    audioD.pause();
+    audioD.currentTime = 0;
+    audioD.play();
+  }
+
+console.clear();
+var audioE = new Audio('sounds/hungry.wav');
+audioE.load();
+document.getElementById('e').ontouchstart = function() {
+    audioE.pause();
+    audioE.currentTime = 0;
+    audioE.play();
+  }
+
+console.clear();
+var audioF = new Audio('sounds/attention.wav');
+audioF.load();
+document.getElementById('f').ontouchstart = function() {
+    audioF.pause();
+    audioF.currentTime = 0;
+    audioF.play();
+  }
+console.clear();
+var audioG = new Audio('sounds/sweet.wav');
+audioG.load();
+document.getElementById('g').ontouchstart = function() {
+    audioG.pause();
+    audioG.currentTime = 0;
+    audioG.play();
+  }
+
+console.clear();
+var audioH = new Audio('sounds/hungry.wav');
+audioH.load();
+document.getElementById('h').ontouchstart = function() {
+    audioH.pause();
+    audioH.currentTime = 0;
+    audioH.play();
+  }
+
+console.clear();
+var audioI = new Audio('sounds/attention.wav');
+audioI.load();
+document.getElementById('i').ontouchstart = function() {
+    audioI.pause();
+    audioI.currentTime = 0;
+    audioI.play();
+  }
 
 function fetchCatImage() {
   let image = document.getElementById("cat-image")

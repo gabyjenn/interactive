@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	background-color: black;
+	background-color: white;
 }
 
 h1 {
@@ -14,39 +14,39 @@ h1 {
 }
 
 .w {
-	background-color: #2b2b2b;
+
 }
 
 .a {
-	background-color: #2b2b2b;
+
 }
 
 .s {
-	background-color: #2b2b2b;
+
 }
 
 .d {
-	background-color: #2b2b2b;
+
 }
 
 .f{
-	background-color: #2b2b2b;
+
 }
 
 .g{
-	background-color: #2b2b2b;
+
 }
 
 .j {
-	background-color: #2b2b2b;
+
 }
 
 .k {
-	background-color: #2b2b2b;
+
 }
 
 .l {
-	background-color: #2b2b2b;
+
 }
 
 .all {
@@ -58,19 +58,7 @@ h1 {
 }
 
 .button {
-	outline: none;
-	border: 1px solid black;
-	font-size: 5vw;
-	font-family: cursive;
-	line-height: 2;
-	font-weight: 400;
-	color: white;
-	border-radius: 15vw;
 	display: inline-block;
-	width: 30vw;
-	height: 30vw;
-	text-align: center;
-	margin: 10px;
 }
 
 .wrapper {
@@ -119,4 +107,9 @@ h1 {
 	position: absolute;
 	left: 2%;
 	bottom: 5vw;
+}
+
+img{
+	width: 30vw;
+	height: auto;
 }
