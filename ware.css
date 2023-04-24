@@ -1,7 +1,7 @@
 body{
 	align-content: center;
 	text-align: center;
-	background: #00ff00;
+	background: #ff6bff;
 	margin: 0;
 }
 
@@ -40,21 +40,22 @@ body{
 	bottom: 1vh;
 }
 
-.button{
+input[type="button"]{
 	position: absolute;
 	bottom: 11vh;
 	left: 1.7vw;
 	width: 160px;
 	height: 45px;
+	border: none;
 	border-radius: 35px;
 	background: black;
-	color: #00ff00;
+	color: #ff6bff;
 	font-family: VCR OSD Mono;
 	font-size: 24px;
 	align-content: center;
 	text-align: left;
-	padding-left: 30px;
-	padding-top: 20px;
+	padding-left: 15px;
+	padding-top: 0px;
 	letter-spacing: normal;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -63,7 +64,7 @@ body{
 	cursor: pointer;
 }
 
-.button:hover{
+input[type="button"]:hover{
 	width: 1590px;
 	letter-spacing: 162px;
 }

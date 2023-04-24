@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ware</title>
+    <link rel="stylesheet" href="wares.css">
+  </head>
+  <body style="margin: 0; padding: 0; background: #ff6bff; font-family: monospace; font-size: 1.3em;">
+        <div style="width: 375px; height: 250px; padding: 1em;">
+          Do you want to spread love<br>
+          to your friends and family?<br>
+          <button style="margin-top: 1em;" onclick="sendMail(); return false">spread</button>
+        </div>
+        <textarea id="myText">
+          I am not a Malware.<br>
+          I am a Ware.<br>
+          visit me: https://gabyjenn.github.io/interactive/ware.html
+        </textarea>
+        <script type="text/javascript">
+          function sendMail() {
+    var link = "mailto:me@example.com"
+             + "?cc=myCCaddress@example.com"
+             + "&subject=" + encodeURIComponent("This is my subject")
+             + "&body=" + encodeURIComponent(document.getElementById('myText').value)
+    ;
+    
+    window.location.href = link;
+}
+        </script>
+
+  </body>
+</html>
