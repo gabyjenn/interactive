@@ -228,7 +228,7 @@ const image = document.querySelector('.cat');
 // Set a timer to show the image after 5 seconds of inactivity
 let timer = setTimeout(() => {
   image.style.display = 'block';
-}, 10000);
+}, 5000);
 
 // Add an event listener to reset the timer and hide the image when the user interacts with the screen
 document.addEventListener('touchstart', () => {
@@ -238,6 +238,6 @@ document.addEventListener('touchstart', () => {
   // Start a new timer to show the image again after 5 seconds of inactivity
   timer = setTimeout(() => {
     image.style.display = 'block';
-  }, 10000);
+  }, 5000);
 });
 
